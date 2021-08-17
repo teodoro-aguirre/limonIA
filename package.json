@@ -1,0 +1,14 @@
+{
+  "name": "limonia",
+  "version": "1.0.0",
+  "description": "Single Page Application del proyecto limon IA, para mostrar información básica del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Angel Rodriguez Aguirre",
+  "license": "MIT"
+}
