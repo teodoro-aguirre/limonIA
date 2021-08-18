@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-color: #F6F6F6;
+}
+.home-container{
+    height: 50vh;
+    background-color: #719b4a ;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.home-container__title{
+    font-family: 'Anton', 'sons-serig';
+    color: #F6F6F6;
+    text-align: center;
+    width: 100%;
+}
+
+.home-container__subtitle{
+    font-family: 'Anton', 'sons-serig';
+    color: #F6F6F6;
+    text-align: center;
+    width: 100%;
+}
