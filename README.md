@@ -32,4 +32,4 @@ npm run start
 
 # Visualización
 
-![](/limoncaptura.png)
+![](/limoncapture.png)
