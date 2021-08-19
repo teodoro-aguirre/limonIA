@@ -10,10 +10,23 @@
 body{
     background-color: #F6F6F6;
 }
+
+body::-webkit-scrollbar{
+    width: 8px;
+    background: #a5725e;
+}
+
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 5px;
+    border-right: 2px solid #a5725e;
+}
+
 .home__animated{
     width: 100% ;
     height: 100vh;
-    background:  rgb(34, 117, 185);
+    background:  #FFA07A;
     padding: 5px;
 }
 

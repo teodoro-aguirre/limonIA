@@ -3,13 +3,13 @@
 const Home = () => {
     const view = `
         <section class="home__animated">
-            <div class="home-container">
-                <div class="home-container__title">
+            <div class="home-container columns">
+                <div class="home-container__title column is-three-quarters-desktop">
                     <h1>Limón IA APP</h1>
                     <p>Detección de plagas y enfermedades de citrus latifolia mediante una aplicación 
                     móvil con aprendizaje profundo a partir de redes neuronales convolucionales</p>
                 </div>
-                <div class="home-container__img">
+                <div class="home-container__img column">
                     <img src="./assets/img/telefono-celular.png" alt="cel">
                 </div>
             </div>
@@ -18,8 +18,8 @@ const Home = () => {
                 <div class="limon-2"></div>
                 <div class="limon"></div>
                 <div class="limon-2"></div>
-                <div class="limon"></div>
                 <div class="limon-2"></div>
+                <div class="limon"></div>
             </div>
         </section>
     `;
