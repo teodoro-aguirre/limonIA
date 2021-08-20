@@ -22,6 +22,15 @@ const Home = () => {
                 <div class="limon"></div>
             </div>
         </section>
+        <section>
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <h2 class="title-section1">Hola</h2>
+                </div>
+                <div class="column ">
+                </div>
+            </div>
+        </section>
     `;
 
     return view;
