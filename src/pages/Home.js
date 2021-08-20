@@ -4,12 +4,12 @@ const Home = () => {
     const view = `
         <section class="home__animated">
             <div class="home-container columns">
-                <div class="home-container__title column is-three-quarters-desktop">
+                <div class="home-container__title column is-8">
                     <h1>Limón IA APP</h1>
                     <p>Detección de plagas y enfermedades de citrus latifolia mediante una aplicación 
                     móvil con aprendizaje profundo a partir de redes neuronales convolucionales</p>
                 </div>
-                <div class="home-container__img column">
+                <div class="home-container__img column is-4">
                     <img src="./assets/img/telefono-celular.png" alt="cel">
                 </div>
             </div>

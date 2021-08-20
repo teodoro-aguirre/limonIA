@@ -13,6 +13,12 @@ const routes = {
     '/descarga': Download,
 }
 
+const titles = {
+    '/': 'Limon IA | Home',
+    '/contacto': 'Limon IA | Contacto',
+    '/descarga': 'Limon IA | Descarga',
+}
+
 // Se muestra el contenido según la ruta obtenida en content
 // El header queda estatico
 const router = async() => {
@@ -23,7 +29,10 @@ const router = async() => {
     header.innerHTML = await Header();
     footer.innerHTML = await Footer();
     
+
     let route = getHash();
+    let title = titles[route] ? titles[route] : Error404;;
+    document.title = title; 
     console.log(route)
     // Valida si la ruta existe dentro del arreglo, en caso contrario
     // retorna a la página de error 404
