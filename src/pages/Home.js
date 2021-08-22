@@ -5,12 +5,12 @@ const Home = () => {
         <section class="home__animated">
             <div class="home-container columns">
                 <div class="home-container__title column is-8">
-                    <h1>Limón IA APP</h1>
-                    <p>Detección de plagas y enfermedades de citrus latifolia mediante una aplicación 
+                    <h1 class="animate__animated animate__backInDown">Limón IA APP</h1>
+                    <p class="animate__animated animate__backInLeft">Detección de plagas y enfermedades de citrus latifolia mediante una aplicación 
                     móvil con aprendizaje profundo a partir de redes neuronales convolucionales</p>
                 </div>
                 <div class="home-container__img column is-4">
-                    <img src="./assets/img/telefono-celular.png" alt="cel">
+                    <img src="./assets/img/telefono-celular.png"  class="animate__animated animate__bounceInDown" alt="cel">
                 </div>
             </div>
             <div class="limones">
