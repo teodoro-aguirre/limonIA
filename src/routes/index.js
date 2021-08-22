@@ -5,18 +5,21 @@ import Contact from "../pages/Contact";
 import Error404 from "../template/Error404";
 import getHash from "../utils/getHash";
 import Footer from "../template/Footer";
+import Team from "../pages/Team";
 
 // Se declaran las rutas a utilizar
 const routes = {
     '/': Home,
     '/contacto': Contact,
     '/descarga': Download,
+    '/equipo': Team,
 }
 
 const titles = {
     '/': 'Limon IA | Home',
     '/contacto': 'Limon IA | Contacto',
     '/descarga': 'Limon IA | Descarga',
+    '/equipo': 'Limon IA | Equipo',
 }
 
 // Se muestra el contenido según la ruta obtenida en content

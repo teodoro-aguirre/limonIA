@@ -24,6 +24,9 @@ const Header = () => {
                     <li class="nav-item">
                         <a class="nav-link  ${ hash == '/descarga' ? 'active' : ''}" href="#/descarga">Descarga</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link  ${ hash == '/equipo' ? 'active' : ''}" href="#/equipo">Equipo</a>
+                    </li>
                 </ul>
             </div>
         </div>
