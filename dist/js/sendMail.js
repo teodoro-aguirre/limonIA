@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{document.getElementById("form_contact").addEventListener("submit",(e=>{e.preventDefault(),window.href="#/enviado"}))}));

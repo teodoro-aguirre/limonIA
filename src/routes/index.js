@@ -39,7 +39,6 @@ const router = async() => {
     let route = getHash();
     let title = titles[route] ? titles[route] : Error404;;
     document.title = title; 
-    console.log(route)
     // Valida si la ruta existe dentro del arreglo, en caso contrario
     // retorna a la página de error 404
     let render = routes[route] ? routes[route] : Error404;

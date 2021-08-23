@@ -141,6 +141,32 @@ body::-webkit-scrollbar-thumb{
     background: #A10047;
 }
 
+.container-contacto h1{
+    font-family: 'Anton', 'sons-serig';
+    font-size: 40px;
+    color: #DEDEDE;
+}
+
+.label_form{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    color: #DEDEDE;
+}
+
+.input_form{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #dedede;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.button_form{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background-color: #7905bd;
+    border-color: #23272A;
+}
+
 /* Página Descarga */
 .container-download{
     height: 94vh;
@@ -255,4 +281,26 @@ body::-webkit-scrollbar-thumb{
 .content_4-content{
     font-family: 'Fira Sans', sans-serif;
     font-size: 25px;
+}
+
+/* Página Enviado */
+
+.box{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-send--text h2{
+    font-size: 40px;
+    font-family: 'Anton', 'sons-serig';
+    margin-top: 20px;
+}
+
+.container-send--text p{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
 }

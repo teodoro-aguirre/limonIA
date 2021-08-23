@@ -137,8 +137,34 @@ body::-webkit-scrollbar-thumb{
 
 /* Página Contacto */
 .container-contacto{
-    height: 94vh;
+    height: 80vh;
     background: #A10047;
+}
+
+.container-contacto h1{
+    font-family: 'Anton', 'sons-serig';
+    font-size: 40px;
+    color: #DEDEDE;
+}
+
+.label_form{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    color: #DEDEDE;
+}
+
+.input_form{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #dedede;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.button_form{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background-color: #7905bd;
+    border-color: #23272A;
 }
 
 /* Página Descarga */
