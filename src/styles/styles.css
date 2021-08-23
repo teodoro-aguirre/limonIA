@@ -173,6 +173,30 @@ body::-webkit-scrollbar-thumb{
     background: #7905bd;
 }
 
+.img_app{
+    height: 62px;
+}
+
+.container-download__title{
+    font-size: 40px;
+    font-family: 'Anton', 'sons-serig';
+    color: #ffffff;
+}
+
+.container-download__text{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+
+}
+
+.container-download__prox{
+    font-size: 30px;
+    font-family: 'Anton', 'sons-serig';
+    color: #ffffff;
+
+}
+/* Home */
 .content_1{
     min-height: 45vh;
     background-color: #ffffff;
