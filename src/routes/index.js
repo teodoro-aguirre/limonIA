@@ -6,6 +6,7 @@ import Error404 from "../template/Error404";
 import getHash from "../utils/getHash";
 import Footer from "../template/Footer";
 import Team from "../pages/Team";
+import Send from "../template/Send";
 
 // Se declaran las rutas a utilizar
 const routes = {
@@ -13,6 +14,7 @@ const routes = {
     '/contacto': Contact,
     '/descarga': Download,
     '/equipo': Team,
+    '/enviado': Send,
 }
 
 const titles = {
@@ -20,6 +22,7 @@ const titles = {
     '/contacto': 'Limon IA | Contacto',
     '/descarga': 'Limon IA | Descarga',
     '/equipo': 'Limon IA | Equipo',
+    '/enviado': 'Limon IA | Enviado',
 }
 
 // Se muestra el contenido según la ruta obtenida en content
