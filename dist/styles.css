@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-.navbar{
-    height: 6vh;
-}
 
 body{
     background-color: #F6F6F6;
@@ -169,10 +166,34 @@ body::-webkit-scrollbar-thumb{
 
 /* Página Descarga */
 .container-download{
-    height: 94vh;
+    height: 50vh;
     background: #7905bd;
 }
 
+.img_app{
+    height: 62px;
+}
+
+.container-download__title{
+    font-size: 40px;
+    font-family: 'Anton', 'sons-serig';
+    color: #ffffff;
+}
+
+.container-download__text{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+
+}
+
+.container-download__prox{
+    font-size: 30px;
+    font-family: 'Anton', 'sons-serig';
+    color: #ffffff;
+
+}
+/* Home */
 .content_1{
     min-height: 45vh;
     background-color: #ffffff;
@@ -282,6 +303,32 @@ body::-webkit-scrollbar-thumb{
     font-family: 'Fira Sans', sans-serif;
     font-size: 25px;
 }
+
+/* Team */
+.container-team h1{
+    font-family: 'Anton', 'sons-serig';
+    font-size: 40px;
+}
+.container-team p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+
+.profile_name{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.img-profile{
+    width: 320px;
+    height: 400px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.63);
+}
+
 
 /* Página Enviado */
 
